@@ -18,8 +18,6 @@ public class Aula05EstruturasCondicionais {
 
         System.out.println("Fora do if");
 
-        if (idade > 15){
-            System.out.println("Idade ultrapassada!");
         }
     }
 }
