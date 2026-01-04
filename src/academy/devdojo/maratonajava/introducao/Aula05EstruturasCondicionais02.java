@@ -23,6 +23,5 @@ public class Aula05EstruturasCondicionais02 {
             categoria = "Adulto";
         }
         System.out.println(categoria);
-        System.out.println("Meu pau torto");
     }
 }
