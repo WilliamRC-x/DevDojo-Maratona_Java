@@ -28,21 +28,6 @@ public class Aula04Operadores {
     // && (AND) || (or) !
     int idade = 35;
     float salario = 3500F;
-<<<<<<< HEAD
-    boolean isDentroDaLeiMaiorQueTrinta = idade > 30 && salario >= 4612;
-    boolean isDentroDaLeiMenorQueTrinta = idade > 30 && salario >= 3381;
-
-        System.out.println("isDentroDaLeiMaiorQueTrinta: "+ isDentroDaLeiMaiorQueTrinta);
-        System.out.println("isDentroDaLeiMenorQueTrinta: "+ isDentroDaLeiMenorQueTrinta);
-
-        double valorTotalContaCorrente = 200;
-        double valorTotalContaPoupanca = 10000;
-        float valorPlaystation = 5000F;
-        boolean isPlaystationCincoCompravel = valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
-        System.out.println("isPlaystationCincoCompravel: "+ isPlaystationCincoCompravel);
-
-
-=======
 
     boolean isDentroDaLeiMaiorQueTrinta = idade > 30 && salario >= 4612;
     boolean isDentroDaLeiMenorQueTrinta = idade > 30 && salario >= 3381;
@@ -52,9 +37,9 @@ public class Aula04Operadores {
 
     double valorTotalContaCorrente = 200;
     double valorTotalContaPoupanca = 10000;
-    float valorPlaystationCincoCompravel = 5000F;
-    boolean isPlaystationCincoCompravel = valorTotalContaCorrente > valorPlaystationCincoCompravel || valorTotalContaPoupanca > valorPlaystationCincoCompravel;
-    System.out.println("isPlaystationCincoCompravel: " +isPlaystationCincoCompravel);
+    float valorPlaystation = 5000F;
+    boolean isPlaystationCincoCompravel = valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
+    System.out.println("isPlaystationCincoCompravel: "+ isPlaystationCincoCompravel);
 
     // = += -= *= /= %=
     double bonus = 1800;
@@ -74,6 +59,5 @@ public class Aula04Operadores {
     --contador;
     int contador2 = 0;
     System.out.println(++contador2);
->>>>>>> 57070511a6fae7d3767efd0356e7db0eee550804
     }
 }
