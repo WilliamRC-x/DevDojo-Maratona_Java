@@ -11,7 +11,9 @@ public class Aula05EstruturasCondicionais02 {
         }else{
             System.out.println("Categoria Adulto");
         }*/
+
         // Forma mais limpa e correta.
+
         int idade = 15;
         String categoria;
 
