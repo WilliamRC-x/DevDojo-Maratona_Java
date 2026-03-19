@@ -13,7 +13,7 @@ public class Aula07Arrays02 {
         nomes[2] = "Luffy";
 
         for (int i = 0; i < nomes.length; i++) {
-            System.out.println(nomes[i])
+            System.out.println(nomes[i]);
         }
     }
 }
