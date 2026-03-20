@@ -12,7 +12,6 @@ public class Aula07Arrays03 {
 
         for (int num : numeros3) {
             System.out.println(num);
-
         }
     }
 }
